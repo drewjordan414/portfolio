@@ -4,6 +4,9 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="42" value="" style="edgeStyle=none;html=1;fontSize=20;" edge="1" parent="1" source="4" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry y="540" width="850" height="30" as="geometry"/>
                 </mxCell>
@@ -96,6 +99,20 @@
                         <mxGeometry x="60" y="542.5" width="80" height="25" as="geometry"/>
                     </mxCell>
                 </UserObject>
+                <mxCell id="49" value="" style="edgeStyle=none;html=1;fontSize=20;" edge="1" parent="1" source="43" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry y="930" width="850" height="30" as="geometry"/>
+                </mxCell>
+                <UserObject label="footer" placeholders="1" name="Variable" id="44">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=20;" vertex="1" parent="1">
+                        <mxGeometry x="280" y="930" width="80" height="25" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="48" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry y="970" width="850" height="130" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
