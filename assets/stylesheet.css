@@ -48,3 +48,27 @@ header {
 .nav-link:hover {
     color: #7534ee;
 }
+
+/* Profile Picture */
+.profile-picture{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    overflow:hidden;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 150px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.profile-picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
