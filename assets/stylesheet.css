@@ -21,7 +21,7 @@ body{
     display: flex;
     justify-content: flex-end;
     text-align: right;
-    background-color: white;
+    background-color: #333;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -49,32 +49,34 @@ body{
     flex-direction: row;
     text-decoration: none;
     /* color: #fff; */
-    color: #333;
+    color: white;
     font-family: 'Inconsolata',Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     transition: color 0.3s;
     /* padding: 10px; */
+    margin: 20px;
 }
 
 .skills-link{
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    color: #333;
+    color: white;
     font-family: 'Inconsolata',Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     transition: color 0.3s;
+    margin: 20px;
     /* padding: 10px; */
 }
 
 .github-link:hover {
-    color: #333;
+    color: white;
     transform: scale(1.1);
     text-decoration: line-through #333;
 }
 
 .skills-link:hover{
-    color: #333;
+    color: white;
     transform: scale(1.1);
     text-decoration: line-through #333;
 }
@@ -147,15 +149,28 @@ body{
     margin-bottom: 100px;
 }
 
-.skills{
+.skills-header{
     display: flex;
-    flex-direction: column;
-    background-color: white;
+    flex-direction: row;
+    background-color: #333;
     text-decoration: none;
-    color: #333;
+    color: white;
     /* change the font */
     font-family: 'Inconsolata',Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.skills h1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
 }
 
 
