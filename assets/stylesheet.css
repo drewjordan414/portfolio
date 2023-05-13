@@ -17,12 +17,12 @@ body{
 /* Header and Navbar */
 header {
     background-color: #333;
-    padding: 20px;
 }
 
 .navbar {
     display: flex;
     justify-content: right;
+    border-radius: 10px;
 }
 
 .nav-list {
@@ -38,7 +38,7 @@ header {
 .nav-link {
     text-decoration: none;
     color: #fff;
-    font-family: 'Inconsolata', Arial, sans-serif;
+    font-family: 'Inconsolata',Arial, Helvetica, sans-serif;
     font-size: 30px;
     transition: color 0.3s;
     padding: 20px;
@@ -66,14 +66,13 @@ header {
     /* try center if left doesnt work */
     justify-content: left; 
     align-items: left;
-    width: 400px;
-    height: auto;
-    aspect-ratio: 1;
+    width: 700px;
+    height: 400px;
     overflow: hidden;
     border-radius: 50%;
     margin-top: 150px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
     box-shadow: 0 0 0 10px #333;
 }
 
@@ -91,22 +90,276 @@ header {
 }
 
 .whoami h1{
-    color: #fff;
+    display: flex;
+    flex-direction: column;
+    color: #4f4f4f;
     font-family: 'Inconsolata', Arial, sans-serif;
     font-size: 30px;
     margin-top: 150px;
-    margin-bottom: 10px;
 }
 .whoami h2{
-    color: #fff;
+    display: flex;
+    flex-direction: column;
+    color: #800000;
     font-family: 'Inconsolata', Arial, sans-serif;
     font-size: 40px;
+    font-display: bold;
     margin-bottom: 10px;
 }
 
-.whoami p{
+.whoami article{
+    display: flex;
+    flex-direction: column;
     color: #fff;
     font-family: 'Inconsolata', Arial, sans-serif;
     font-size: 20px;
-    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Q
+U
+I
+R
+I
+E
+S
+*/
+
+
+
+
+/* Media Queries */
+@media screen and (max-height: 844px){
+    body{
+        background-color: rgb(37, 37, 37);
+    }
+    
+    /* Header and Navbar */
+    header {
+        background-color: #333;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: right;
+        border-radius: 10px;
+    }
+    
+    .nav-list {
+        list-style-type: none;
+        display: flex;
+        justify-content: right;
+    }
+    
+    .nav-item {
+        margin: 0 10px;
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Inconsolata',Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        transition: color 0.3s;
+        padding: 20px;
+    }
+    
+    
+    .nav-link:hover {
+        color: #7534ee;
+    }
+    
+    .container{
+        display:flex;
+        /* flex-direction:row; */
+        align-items: center;
+    }
+    
+    .main-content{
+        display:flex;
+        align-items: flex-start;
+    }
+    
+    /* Profile Picture */
+    .profile-picture{
+        display: flex;
+        /* try center if left doesnt work */
+        justify-content: left; 
+        align-items: left;
+        width: 700px;
+        height: 400px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-top: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
+        box-shadow: 0 0 0 10px #333;
+    }
+    
+    .profile-picture img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    /* about */
+    .whoami{
+        display:flex;
+        flex-direction:column;
+        margin-left: 20px;
+    }
+    
+    .whoami h1{
+        display: flex;
+        flex-direction: column;
+        color: #4f4f4f;
+        font-family: 'Inconsolata', Arial, sans-serif;
+        font-size: 30px;
+        margin-top: 150px;
+    }
+    .whoami h2{
+        display: flex;
+        flex-direction: column;
+        color: #800000;
+        font-family: 'Inconsolata', Arial, sans-serif;
+        font-size: 40px;
+        font-display: bold;
+        margin-bottom: 10px;
+    }
+    
+    .whoami article{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        font-family: 'Inconsolata', Arial, sans-serif;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }   
+}
+
+@media screen and (max-width: 390px) {
+    body{
+        background-color: rgb(37, 37, 37);
+    }
+    
+    /* Header and Navbar */
+    header {
+        background-color: #333;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: right;
+        border-radius: 10px;
+    }
+    
+    .nav-list {
+        list-style-type: none;
+        display: flex;
+        justify-content: right;
+    }
+    
+    .nav-item {
+        margin: 0 10px;
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Inconsolata',Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        transition: color 0.3s;
+        padding: 20px;
+    }
+    
+    
+    .nav-link:hover {
+        color: #7534ee;
+    }
+    
+    .container{
+        display:flex;
+        /* flex-direction:row; */
+        align-items: center;
+    }
+    
+    .main-content{
+        display:flex;
+        align-items: flex-start;
+    }
+    
+    /* Profile Picture */
+    .profile-picture{
+        display: flex;
+        /* try center if left doesnt work */
+        justify-content: left; 
+        align-items: left;
+        width: 700px;
+        height: 400px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-top: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
+        box-shadow: 0 0 0 10px #333;
+    }
+    
+    .profile-picture img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    /* about */
+    .whoami{
+        display:flex;
+        flex-direction:column;
+        margin-left: 20px;
+    }
+    
+    .whoami h1{
+        display: flex;
+        flex-direction: column;
+        color: #4f4f4f;
+        font-family: 'Inconsolata', Arial, sans-serif;
+        font-size: 30px;
+        margin-top: 150px;
+    }
+    .whoami h2{
+        display: flex;
+        flex-direction: column;
+        color: #800000;
+        font-family: 'Inconsolata', Arial, sans-serif;
+        font-size: 40px;
+        font-display: bold;
+        margin-bottom: 10px;
+    }
+    
+    .whoami article{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        font-family: 'Inconsolata', Arial, sans-serif;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }   
 }
