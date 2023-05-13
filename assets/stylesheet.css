@@ -149,6 +149,19 @@ body{
     margin-bottom: 100px;
 }
 
+.skills-header{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #333;
+    font-family: 'Inconsolata', Arial, sans-serif;
+    font-size: 50px;
+    margin: 20%;
+    border-radius: 50%;
+    width: 200px;
+    padding: 10px;
+}
+
 .skill-container{
     display: flex;
     justify-content: space-between;
@@ -162,9 +175,10 @@ body{
     margin: 20px;
 }
 
-.skill-box h2{
+.skill-box h2,h3{
     font-size: 20px;
     margin-bottom: 10px;
+    margin-top: 0;
 }
 
 .skill-box img{
@@ -178,6 +192,7 @@ body{
 .skill-box p{
     font-size: 14px;
     text-align: center;
+    color: #fff;
 }
 
 
