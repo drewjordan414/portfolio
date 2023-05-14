@@ -124,10 +124,10 @@ body{
 .whoami{
     display:flex;
     flex-direction:column;
-    margin-left: 20px;
+    margin-left: 45px;
 }
 
-.whoami h1{
+.whoami p{
     display: flex;
     flex-direction: column;
     color: rgb(0, 0, 0);
