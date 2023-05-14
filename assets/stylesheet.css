@@ -43,7 +43,22 @@ body{
     margin: 0 10px;
 }
 
-.github-link {
+/* .github-link {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none; */
+    /* color: #fff; */
+    /* color: rgb(0, 0, 0);
+    font-family: monospace; */
+    /* font-size: 30px;
+    transition: color 0.3s; */
+    /* padding: 10px; */
+    /* margin: 20px; */
+    /* margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 140px;
+} */
+.github-link{
     display: flex;
     flex-direction: row;
     text-decoration: none;
@@ -56,7 +71,8 @@ body{
     /* margin: 20px; */
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-right: 140px;
+    margin-left: 30px;
+    margin-right: 120px;
 }
 
 .skills-link{
