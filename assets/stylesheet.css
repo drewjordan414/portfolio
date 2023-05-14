@@ -201,17 +201,17 @@ body{
     }
   }
 
-.whoami article {
+
+.text-alignment{
     display: flex;
-    justify-content: center;
-    text-overflow: unset;
-    color: #000000;
+    color: black;
     font-family: monospace;
-    text-align: center;
     font-size: 20px;
-    margin-bottom: 0x;
-    margin-top: 0px;
     margin-right: 200px;
+    column-count: 2;
+    column-gap: 20px;
+    column-fill: auto;
+    text-align: justify;
 }
 
 .skills-header {
