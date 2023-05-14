@@ -21,7 +21,7 @@ body{
     justify-content: flex-end;
     text-align: right;
     background-color: azure;
-    padding: 20px;
+    /* padding: 20px; */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -50,10 +50,13 @@ body{
     /* color: #fff; */
     color: rgb(0, 0, 0);
     font-family: monospace;
-    font-size: 40px;
+    font-size: 30px;
     transition: color 0.3s;
     /* padding: 10px; */
-    margin: 20px;
+    /* margin: 20px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 140px;
 }
 
 .skills-link{
@@ -62,22 +65,25 @@ body{
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: monospace;
-    font-size: 40px;
+    font-size: 30px;
     transition: color 0.3s;
-    margin: 20px;
+    /* margin: 20px; */
     /* padding: 10px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
 }
 
 .github-link:hover {
     color: rgb(0, 0, 0);
     transform: scale(1.1);
-    text-decoration: line-through #333;
+    /* text-decoration: line-through #333; */
 }
 
 .skills-link:hover{
     color: rgb(0, 0, 0);
     transform: scale(1.1);
-    text-decoration: line-through #333;
+    /* text-decoration: line-through #333; */
 }
 .container{
     display:flex;
@@ -133,11 +139,33 @@ body{
 .whoami h2{
     display: flex;
     flex-direction: column;
-    color: #800000;
+    color: #000000;
     font-family: monospace;
     font-size: 60px;
     margin-top: 30px;
 }
+/* typing? */
+.typing {
+    width: 35%;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
 
 .whoami article{
     display: flex;
@@ -150,10 +178,10 @@ body{
 
 .skills-header{
     display: flex;
-    justify-content: center;
-    color: #fff;
+    /* justify-content: center; */
+    color: #000000;
     background-color: azure;
-    font-family: 'Inconsolata', Arial, sans-serif;
+    font-family: monospace;
     font-size: 50px;
     margin: 20%;
     border-radius: 50%;
