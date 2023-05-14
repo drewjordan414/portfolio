@@ -214,18 +214,32 @@ body{
     margin-right: 200px;
 }
 
-.skills-header{
+.skills-header {
     display: flex;
     /* justify-content: center; */
     color: #000000;
     background-color: white;
     font-family: monospace;
     font-size: 50px;
-    margin: 20%;
-    border-radius: 50%;
-    width: 200px;
-    padding: 10px;
+    /* margin: 400px; */
+    /* border-radius: 50%; */
+    /* width: 200px; */
+    /* padding: 10px; */
+    /* margin-right: 40px; */
+    margin-top: 300px;
+    margin-bottom: 200px;
+    margin-left: 250px;
 }
+
+#typing {
+    display: inline-block;
+    animation: typing 2s steps(10), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 50px;
+  }
 
 .skill-container{
     display: flex;
