@@ -43,21 +43,6 @@ body{
     margin: 0 10px;
 }
 
-/* .github-link {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none; */
-    /* color: #fff; */
-    /* color: rgb(0, 0, 0);
-    font-family: monospace; */
-    /* font-size: 30px;
-    transition: color 0.3s; */
-    /* padding: 10px; */
-    /* margin: 20px; */
-    /* margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 140px;
-} */
 .github-link{
     display: flex;
     flex-direction: row;
@@ -123,22 +108,6 @@ body{
     margin-right: 150px;
     margin-bottom: 350px;
 }
-
-/* Profile Picture */
-/* .profile-picture{
-    display: flex;
-    justify-content: left; 
-    align-items: left;
-    width: 700px;
-    height: 400px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-top: 150px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 150px;
-    box-shadow: 0 0 0 10px white;
-} */
 
 .profile-picture{
     text-align: left;
@@ -221,19 +190,14 @@ body{
     background-color: white;
     font-family: monospace;
     font-size: 50px;
-    /* margin: 400px; */
-    /* border-radius: 50%; */
-    /* width: 200px; */
-    /* padding: 10px; */
-    /* margin-right: 40px; */
-    margin-top: 300px;
-    margin-bottom: 200px;
+    margin-top: 200px;
+    margin-bottom: 100px;
     margin-left: 250px;
 }
 
 #typing {
     display: inline-block;
-    animation: typing 2s steps(10), blink .5s step-end infinite alternate;
+    animation: typing 1s steps(10), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
