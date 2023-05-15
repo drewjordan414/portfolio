@@ -209,6 +209,41 @@ body {
     margin-top: 0;
 }
 
+.top-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.banner-img {
+    width: 1350px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    width: 600px;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 600px;
+}
+
+
+
 .gallery-section {
     display: flex;
     flex-wrap: wrap;
@@ -227,7 +262,6 @@ body {
     position: relative;
     
 }
-
   
 .project-box img {
     width: 100%;
