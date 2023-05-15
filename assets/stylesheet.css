@@ -60,7 +60,8 @@ body{
     margin-right: 120px;
 }
 
-.skills-link{
+
+.resume-link{
     display: flex;
     flex-direction: row;
     text-decoration: none;
@@ -81,7 +82,8 @@ body{
     /* text-decoration: line-through #333; */
 }
 
-.skills-link:hover{
+/* when the user hoovers over the resume link, show a download arrow */
+.resume-link:hover{
     color: rgb(0, 0, 0);
     transform: scale(1.1);
     /* text-decoration: line-through #333; */
@@ -229,65 +231,39 @@ body{
     margin-top: 0;
 }
 
-/* .skill-box img{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 10px;
-} */
-
-/* .project-box{
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 100px;
-    font-size: 20px;
-    text-align: center;
-    color: #000000;
-    height: auto;
-    width: auto;
-} */
-
-.project-container{
+.gallery-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-left: 250px;
-    margin-right: 250px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .project-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: calc(33.33% - 40px); /* Adjust the width for even distribution */
-    margin-bottom: 40px;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.skill-title {
-    font-size: 40px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.project-img {
+    width: 30%;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .project-box img {
     width: 100%;
     height: auto;
-    object-fit: cover;
-    border-radius: 4px; /* Add border radius if you want rounded corners */
-}
+  }
+  
+  .project-box .skill-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+  }
 
-/* .project-img{
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: auto;
-    object-fit: cover;
-    margin: 50px;
-} */
 
 
 

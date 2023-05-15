@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+h1 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24pt;
+}
+
+.p,
+p {
+    color: black;
+    font-family: Geneva, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+    margin: 0pt;
+}
+
+a {
+    color: black;
+    font-family: Geneva, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+h2 {
+    color: black;
+    font-family: Arial-BoldItalicMT, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+.s1 {
+    color: black;
+    font-family: Geneva, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+.h3 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+h4 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.s2 {
+    color: black;
+    font-family: Arial-BoldItalicMT, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+li {
+    display: block;
+}
+
+#l1 {
+    padding-left: 0pt;
+}
+
+#l1>li>*:first-child:before {
+    content: "• ";
+    color: black;
+    font-family: Geneva, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+#l2 {
+    padding-left: 0pt;
+}
+
+#l2>li>*:first-child:before {
+    content: "• ";
+    color: black;
+    font-family: Geneva, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+#l3 {
+    padding-left: 0pt;
+}
+
+#l3>li>*:first-child:before {
+    content: "• ";
+    color: black;
+    font-family: Geneva, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}
