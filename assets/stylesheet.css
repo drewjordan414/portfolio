@@ -248,7 +248,13 @@ body {
 
 
 /* footer */
-
+.bottom{
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 
 
