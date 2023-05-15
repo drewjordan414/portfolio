@@ -2,17 +2,9 @@
 @font-face {
     font-family: 'Inconsolata';
     src: url('/Users/drewjordan/Documents/bootcamp/homework/portfolio/assets/fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf') format('ttf'),
-         url('/Users/drewjordan/Documents/bootcamp/homework/portfolio/assets/fonts/Inconsolata/static') format('ttf');
+        url('/Users/drewjordan/Documents/bootcamp/homework/portfolio/assets/fonts/Inconsolata/static') format('ttf');
     font-weight: normal;
     font-style: normal;
-}
-
-/* :root{
-make root for colors, fonts, header, etc.
-} */
-
-body{
-    background-color: white;
 }
 
 /* Header and Navbar */
@@ -21,20 +13,17 @@ body{
     justify-content: flex-end;
     text-align: right;
     background-color: white;
-    /* padding: 20px; */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
     display: flex;
     justify-content: flex-end;
-    /* border-radius: 10px; */
 }
 
 .nav-list {
     list-style-type: none;
     display: flex;
-    /* justify-content: flex-end; */
     margin: 0;
     padding: 0;
 }
@@ -43,17 +32,14 @@ body{
     margin: 0 10px;
 }
 
-.github-link{
+.github-link {
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    /* color: #fff; */
-    color: rgb(0, 0, 0);
+    color: black;
     font-family: monospace;
     font-size: 30px;
     transition: color 0.3s;
-    /* padding: 10px; */
-    /* margin: 20px; */
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 30px;
@@ -61,63 +47,60 @@ body{
 }
 
 
-.resume-link{
+.resume-link {
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: black;
     font-family: monospace;
     font-size: 30px;
     transition: color 0.3s;
-    /* margin: 20px; */
-    /* padding: 10px; */
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: 100px;
 }
 
 .github-link:hover {
-    color: rgb(0, 0, 0);
+    color: black;
     transform: scale(1.1);
-    /* text-decoration: line-through #333; */
 }
 
-/* when the user hoovers over the resume link, show a download arrow */
-.resume-link:hover{
-    color: rgb(0, 0, 0);
+.resume-link:hover {
+    color: black;
     transform: scale(1.1);
-    /* text-decoration: line-through #333; */
 }
 
-.main-content{
-    display:flex;
+/* body */
+body {
+    background-color: white;
+}
+
+.main-content {
+    display: flex;
     align-items: flex-start;
 }
 
-.container{
-    display:flex;
+.container {
+    display: flex;
     /* flex-direction:row; */
     align-items: center;
     width: 400px;
     height: 400px;
 }
 
-.container img{
+.container img {
     border-radius: 50%;
-    /* width: 400px;
-    height: auto; */
-    /* object-fit: cover; */
     margin-right: 150px;
     margin-bottom: 350px;
 }
 
-.profile-picture{
+.profile-picture {
     text-align: left;
     padding-left: 20px;
     margin-top: 150px;
 }
 
-.profile-picture img{
+.profile-picture img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -125,13 +108,13 @@ body{
 }
 
 /* about */
-.whoami{
-    display:flex;
-    flex-direction:column;
+.whoami {
+    display: flex;
+    flex-direction: column;
     margin-left: 200px;
 }
 
-.whoami p{
+.whoami p {
     display: flex;
     flex-direction: column;
     color: rgb(0, 0, 0);
@@ -140,6 +123,7 @@ body{
     margin-top: 150px;
     margin-bottom: 0px;
 }
+
 .whoami h2 {
     display: flex;
     flex-direction: column;
@@ -159,22 +143,22 @@ body{
     border-right: 3px solid;
     font-family: monospace;
     font-size: 2em;
-  }
-  
-  @keyframes typing {
+}
+
+@keyframes typing {
     from {
-      width: 0
+        width: 0
     }
-  }
-      
-  @keyframes blink {
+}
+
+@keyframes blink {
     50% {
-      border-color: transparent
+        border-color: transparent
     }
-  }
+}
 
 
-.text-alignment{
+.text-alignment {
     display: flex;
     color: black;
     font-family: monospace;
@@ -189,8 +173,7 @@ body{
 
 .skills-header {
     display: flex;
-    /* justify-content: center; */
-    color: #000000;
+    color: black;
     background-color: white;
     font-family: monospace;
     font-size: 50px;
@@ -207,23 +190,16 @@ body{
     border-right: 3px solid;
     font-family: monospace;
     font-size: 50px;
-  }
+}
 
-.skill-container{
+.skill-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 }
 
-/* .skill-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-} */
-
-.skill-title{
+.skill-title {
     display: flex;
     justify-content: flex-start;
     font-size: 40px;
@@ -235,7 +211,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 300px;
+    margin-bottom: 200px;
+    margin-top: 50px;
 }
 
 .project-box {
@@ -245,14 +223,16 @@ body{
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-  }
+    
+}
+
   
-  .project-box img {
+.project-box img {
     width: 100%;
     height: auto;
-  }
-  
-  .project-box .skill-title {
+}
+
+.project-box .skill-title {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -262,11 +242,12 @@ body{
     font-size: 18px;
     width: 100%;
     text-align: center;
-  }
+}
 
 
 
 
+/* footer */
 
 
 
