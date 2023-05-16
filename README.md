@@ -1,5 +1,14 @@
 # portfolio
 
+## Resume Section
+
+I have added my personal resume as a link in my portfolio page. To make this page and save some time, I used Adobe Acrobat to export the pdf contents into html. I used the html from there to make my resume page. 
+
+## Typing Effect
+
+To enhance the user experience and make the portfolio more engaging, I have incorporated a typing effect. I used the typing effect code from the following link: [https://codepen.io/denic/pen/GRoOxbM](https://codepen.io/denic/pen/GRoOxbM). This effect creates a dynamic and animated text display, giving a sense of interactivity to the content.
+
+
 ## Your Task
 
 Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
@@ -33,4 +42,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 
-# About This project
+
+
