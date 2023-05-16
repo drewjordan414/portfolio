@@ -348,7 +348,7 @@ S
     }
 
     .typing {
-        width: 50%;
+        width: 56%;
         animation: typing 2s steps(22), blink .5s step-end infinite alternate;
         white-space: nowrap;
         overflow: hidden;
@@ -369,6 +369,10 @@ S
         }
     }
     .whoami {
+        margin-left: 0;
+    }
+
+    .whoami h2{
         margin-left: 0;
     }
 
@@ -443,7 +447,7 @@ S
     }
 
     .typing {
-        width: 50%;
+        width: 56%;
         animation: typing 2s steps(22), blink .5s step-end infinite alternate;
         white-space: nowrap;
         overflow: hidden;
